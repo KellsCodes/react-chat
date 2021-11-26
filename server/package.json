@@ -1,0 +1,22 @@
+{
+  "name": "node_server",
+  "version": "0.0.1",
+  "description": "a node server for instant communication with laravel backend, bridging the gap.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "real-time",
+    "chat",
+    "react-chat",
+    "php-react-chat"
+  ],
+  "author": "Anyi",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.4.0"
+  }
+}
